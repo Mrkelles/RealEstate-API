@@ -1,0 +1,32 @@
+{
+  "name": "node_real-estate-api",
+  "version": "1.0.0",
+  "description": "Backend for react real estate UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrkelles/Real-Estate-API.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "realtor"
+  ],
+  "author": "Kelvin Ebima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrkelles/Real-Estate-API/issues"
+  },
+  "homepage": "https://github.com/Mrkelles/Real-Estate-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
